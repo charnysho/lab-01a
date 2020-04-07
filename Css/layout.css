@@ -1,0 +1,21 @@
+body{
+
+  background-color: silver;
+  border: black,480px;
+  
+}
+
+section{
+  
+  width: 480px;
+  text-align: center;
+
+}
+
+div section{
+ display: inline-block;
+}
+#div5 section{
+  padding: 0px;
+  margin-left: -3px;
+}
