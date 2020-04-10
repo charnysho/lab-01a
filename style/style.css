@@ -1,0 +1,72 @@
+@import 'base.css';
+@import 'layout.css';
+@import 'module.css';
+
+
+@media only screen and (min-width: 960px){
+
+  .a {
+    height: 100px;
+    background-color:yellow;
+    grid-area: header;
+  }
+
+  .b {
+    height: 600px;
+    background-color:orange;
+    grid-area: leftSideB;
+  }
+
+  .c {
+    height: 200px;
+    background-color: red;
+    grid-area: mainC;
+  }
+
+  .d {
+    height: 200px;
+    background-color:antiquewhite;
+    grid-area: mainD;
+  }
+  
+  .e {
+    height: 250px;
+    background-color: pink;
+    grid-area: mainE;
+  }
+
+  .f {
+    height: 250px;
+    background-color: aqua;
+    grid-area: mainF;
+  }
+
+  .g {
+    height: 250px;
+    background-color:pink;
+    grid-area: mainG;
+  }
+
+  .h {
+    height: 250px;
+    background-color: aquamarine;
+    grid-area: mainH;
+  }
+
+  .i {
+    height: 150px;
+    background-color: blue;
+    grid-area: footer;
+  } 
+
+  #container {
+    display: grid;
+    grid-template-columns: 192px 192px 192px 192px 192px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header header"
+      "leftSideB mainC mainC mainD mainD"
+      "leftSideB mainE mainF mainG mainH"
+      "leftSideB footer footer footer footer";
+  }
+}
