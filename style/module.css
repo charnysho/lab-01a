@@ -1,0 +1,53 @@
+
+.a {
+  height:75px;
+  background-color:red;
+  grid-area: header;
+}
+
+.b {
+  height: 150px;
+  background-color: turquoise;
+  grid-area: mainB;
+}
+
+.c {
+  height: 125px;
+  background-color: violet;
+  grid-area: mainC;
+}
+.d {
+  height: 125px;
+  background-color: thistle;
+  grid-area: mainD;
+}
+
+.e {
+  height: 250px;
+  background-color: yellow;
+  grid-area: leftSideE;
+}
+
+.f {
+  height:250px ;
+  background-color: salmon;
+  grid-area: rightSideF;
+}
+
+.g {
+  height: 250px;
+  background-color: aqua;
+  grid-area: leftSideG;
+}
+
+.h {
+  height: 250px;
+  background-color: springgreen;
+  grid-area: rightSideH;
+}
+
+.i {
+  height: 80px;
+  background-color: brown;
+  grid-area: footer;
+}
